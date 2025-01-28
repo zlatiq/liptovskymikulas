@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 const AppWrapper = styled.div`
   font-family: 'Arial', sans-serif;
-  color: #333;
+  color: #1466AC;
 `;
 
 function App() {

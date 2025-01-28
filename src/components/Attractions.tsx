@@ -15,7 +15,7 @@ const AttractionsTitle = styled.h2`
   font-size: 2.5rem;
   margin-bottom: 2rem;
   text-align: center;
-  color: #1e3a8a;
+  color: #1466AC;
 `;
 
 const AttractionsList = styled.div`
@@ -38,7 +38,7 @@ const AttractionItem = styled.div`
 
 const AttractionIcon = styled.div`
   font-size: 3rem;
-  color: #1e3a8a;
+  color: #1466AC;
   margin-bottom: 1rem;
 `;
 

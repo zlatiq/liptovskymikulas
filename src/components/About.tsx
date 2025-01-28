@@ -16,7 +16,7 @@ const AboutContent = styled.div`
 const AboutTitle = styled.h2`
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: #1e3a8a;
+  color: #1466AC;
 `;
 
 const AboutGrid = styled.div`
@@ -34,7 +34,7 @@ const AboutItem = styled.div`
 
 const AboutIcon = styled.div`
   font-size: 3rem;
-  color: #1e3a8a;
+  color: #1466AC;
   margin-bottom: 1rem;
 `;
 

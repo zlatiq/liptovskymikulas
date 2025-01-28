@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { FaFacebook, FaInstagram, FaTwitter, FaEnvelope } from 'react-icons/fa';
 
 const FooterWrapper = styled.footer`
-    background-color: #1e3a8a;
+    background-color: #1466AC;
     color: white;
     padding: 2rem 0;
 `;

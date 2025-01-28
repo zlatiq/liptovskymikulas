@@ -17,7 +17,7 @@ const GalleryTitle = styled.h2`
   font-size: 2.5rem;
   margin-bottom: 2rem;
   text-align: center;
-  color: #1e3a8a;
+  color: #1466AC;
 `;
 
 const StyledCarousel = styled(Carousel)`
@@ -34,20 +34,32 @@ const Gallery: React.FC = () => {
                 <GalleryTitle>Galéria</GalleryTitle>
                 <StyledCarousel showArrows={true} showThumbs={false} infiniteLoop={true} autoPlay={true} interval={5000}>
                     <div>
-                        <img src="https://example.com/liptovsky-mikulas-1.jpg" alt="Liptovský Mikuláš - Námestie" />
-                        <p className="legend">Námestie Osloboditeľov</p>
+                        <img
+                            src="https://images.unsplash.com/photo-1589554506284-48c18d091dc1"
+                            alt="Námestie osloboditeľov v Liptovskom Mikuláši"
+                        />
+                        <p className="legend">Námestie osloboditeľov</p>
                     </div>
                     <div>
-                        <img src="https://example.com/liptovsky-mikulas-2.jpg" alt="Liptovský Mikuláš - Kostol" />
+                        <img
+                            src="https://images.unsplash.com/photo-1589554506284-48c18d091dc2"
+                            alt="Kostol sv. Mikuláša"
+                        />
                         <p className="legend">Kostol sv. Mikuláša</p>
                     </div>
                     <div>
-                        <img src="https://example.com/liptovsky-mikulas-3.jpg" alt="Liptovský Mikuláš - Príroda" />
-                        <p className="legend">Okolité hory</p>
+                        <img
+                            src="https://images.unsplash.com/photo-1589554506284-48c18d091dc3"
+                            alt="Aquapark Tatralandia"
+                        />
+                        <p className="legend">Aquapark Tatralandia</p>
                     </div>
                     <div>
-                        <img src="https://example.com/liptovsky-mikulas-4.jpg" alt="Liptovský Mikuláš - Aquapark" />
-                        <p className="legend">Aquapark Tatralandia</p>
+                        <img
+                            src="https://images.unsplash.com/photo-1589554506284-48c18d091dc4"
+                            alt="Panoráma Chopku"
+                        />
+                        <p className="legend">Nízke Tatry - Chopok</p>
                     </div>
                 </StyledCarousel>
             </GalleryContent>
